@@ -1,0 +1,2 @@
+[console_scripts]
+cyberchef = cli.main:cli

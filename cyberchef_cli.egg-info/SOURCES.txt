@@ -1,0 +1,7 @@
+setup.py
+cyberchef_cli.egg-info/PKG-INFO
+cyberchef_cli.egg-info/SOURCES.txt
+cyberchef_cli.egg-info/dependency_links.txt
+cyberchef_cli.egg-info/entry_points.txt
+cyberchef_cli.egg-info/requires.txt
+cyberchef_cli.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: cyberchef-cli
+Version: 0.1.0
+Requires-Python: >=3.7
+Requires-Dist: click>=8.0.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: pycryptodome>=3.10.0
+Requires-Dist: chardet>=5.0.0
+Dynamic: requires-dist
+Dynamic: requires-python

@@ -1,0 +1,10 @@
+# requirements.txt
+click==8.1.7
+rich==13.7.0
+pycryptodome==3.20.0
+chardet==5.2.0
+python-magic==0.4.27
+pygments==2.17.2
+# Install setuptools
+setuptools
+
