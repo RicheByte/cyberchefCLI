@@ -2,6 +2,9 @@
 
 A command-line implementation of the CyberChef tool for cryptographic, encoding, and data analysis operations.
 
+
+![Demo Video](/assets/video.gif)
+
 ## Installation
 
 ```bash
@@ -33,6 +36,9 @@ python cyberchef.py bake -f input.txt -r "base64_encode" -o output.txt
 # Using stdin
 echo "hello" | python cyberchef.py bake -r "md5"
 ```
+
+
+![Diagram](/assets/diagram.png)
 
 ## Available Operations
 
