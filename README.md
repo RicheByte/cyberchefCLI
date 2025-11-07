@@ -78,7 +78,7 @@ echo "hello" | python cyberchef.py bake -r "md5"
 ## Usage Examples
 
 ### Basic Encoding/Decoding
-
+![Demo Besic](/assets/basic.png)
 ```bash
 # Base64
 python cyberchef.py bake -s "hello world" -r "base64_encode"
@@ -94,7 +94,7 @@ python cyberchef.py bake -s "hello%20%26%20world" -r "url_decode"
 ```
 
 ### Cryptographic Operations
-
+![Cryptographic](/assets/Cryptographic%20.png)
 ```bash
 # Hashing
 python cyberchef.py bake -s "hello" -r "md5"
@@ -107,7 +107,7 @@ python cyberchef.py bake -s "hello" -r "xor(key=115)"
 ```
 
 ### Data Analysis
-
+![Analysis](/assets/Analysis.png)
 ```bash
 # Entropy Analysis
 python cyberchef.py bake -s "sample data" -r "entropy"
@@ -129,7 +129,7 @@ python cyberchef.py bake -s "%PDF-1.5" -r "file_signature"
 ```
 
 ### JSON Processing
-
+![Processing](/assets/processing.png)
 ```bash
 # Create JSON file for processing
 echo '{"name":"john","age":30}' > data.json
@@ -142,7 +142,7 @@ python cyberchef.py bake -f data.json -r "json_minify"
 ```
 
 ### Text Conversion
-
+![Conversion](/assets/conversion.png)
 ```bash
 # Case conversion
 python cyberchef.py bake -s "Hello World" -r "to_upper"
@@ -150,6 +150,8 @@ python cyberchef.py bake -s "HELLO WORLD" -r "to_lower"
 ```
 
 ### Complex Recipes
+
+![Complex](/assets/complex.png)
 
 ```bash
 # Multiple operations in sequence
@@ -164,6 +166,8 @@ python cyberchef.py bake -s "sample data" -r "entropy,frequency"
 ## Advanced Usage
 
 ### Interactive Mode
+
+![Interactive](/assets/Interactive.gif)
 
 ```bash
 python cyberchef.py bake --interactive
